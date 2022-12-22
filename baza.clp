@@ -290,7 +290,7 @@
 	(real-comics Marvel)
     =>	
     (assert (UI-state (display SystemQuestion)
-                     (relation-asserted system)
+                     (relation-asserted which-system)
                      (response Diceless)
                      (valid-answers Diceless Online_Fansites))))
 
