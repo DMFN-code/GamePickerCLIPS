@@ -49,7 +49,7 @@
     =>	
     (assert (UI-state (display WhichGenreQuestion)
                      (relation-asserted which-genre)
-                     (response Medieval_Fantasy.)
+                     (response Medieval_Fantasy)
                      (valid-answers Medieval_Fantasy Far_future Mecha Genres_related_to_near_present Westerns Supers Other_alternative_history Genre_should_not_matter))))
 
 (defrule which-sub-genre
