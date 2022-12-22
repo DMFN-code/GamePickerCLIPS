@@ -1,0 +1,107 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="{x:Type Button}">
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate  TargetType="{x:Type Button}">
+                    <Grid>
+                        <!-- BackgroundBorder -->
+                        <Border x:Name="BackgroudBorder" BorderThickness="1" BorderBrush="Silver" Background="#7c7c7c" CornerRadius="4" />
+
+                        <!-- GlowBorder -->
+                        <Border x:Name="GlowBorder" CornerRadius="1.5" Margin="2" BorderThickness="1" Opacity="0">
+                            <Border.Background>
+                                <RadialGradientBrush>
+                                    <RadialGradientBrush.RelativeTransform>
+                                        <TranslateTransform Y="0.6"/>
+                                    </RadialGradientBrush.RelativeTransform>
+                                    <GradientStop Offset="0.2" Color="#86AF"/>
+                                    <GradientStop Offset="1.2" Color="#06AF"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+
+                        </Border>
+                        <!-- HighlightBorder -->
+                        <Border x:Name="HighlightBorder"  CornerRadius="1.5" Margin="2" BorderThickness="1">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                    <GradientStop Offset="0" Color="#AFFF"/>
+                                    <GradientStop Offset="0.5" Color="#4FFF"/>
+                                    <GradientStop Offset="0.5" Color="#0FFF"/>
+                                    <GradientStop Offset="1.0" Color="#2FFF"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <Border.BorderBrush>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                    <GradientStop Offset="0" Color="#DFFF"/>
+                                    <GradientStop Offset="0.5" Color="#4FFF"/>
+                                    <GradientStop Offset="1.0" Color="#7AFF"/>
+                                </LinearGradientBrush>
+                            </Border.BorderBrush>
+                        </Border>
+
+                        <ContentPresenter Name="cont" Margin="0,0,0,2" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                        </ContentPresenter>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation
+                                                Storyboard.TargetName="GlowBorder"
+                                                Storyboard.TargetProperty="Opacity"
+                                                To="1"
+                                                Duration="0:0:0.1" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation
+                                                Storyboard.TargetName="GlowBorder"
+                                                Storyboard.TargetProperty="Opacity"
+                                                Duration="0:0:0.6" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>
+                        </Trigger>
+
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="HighlightBorder" Property="Background">
+                                <Setter.Value>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                        <GradientStop Offset="0" Color="#5FFF"/>
+                                        <GradientStop Offset="0.4" Color="#2FFF"/>
+                                        <GradientStop Offset="0.6" Color="#0FFF"/>
+                                        <GradientStop Offset="1.0" Color="#1FFF"/>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter TargetName="HighlightBorder" Property="BorderBrush" Value="#6FFF"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="cont" Property="BitmapEffect">
+                                <Setter.Value>
+                                    <BlurBitmapEffect Radius="3"></BlurBitmapEffect>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+
+
+                    </ControlTemplate.Triggers>
+
+
+                </ControlTemplate>
+            </Setter.Value>
+
+        </Setter>
+    </Style>
+</ResourceDictionary>

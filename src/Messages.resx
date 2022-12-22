@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aceseights" xml:space="preserve">
+    <value>Aces and Eights</value>
+  </data>
+  <data name="Alternity" xml:space="preserve">
+    <value>Alternity</value>
+  </data>
+  <data name="Arsmagica" xml:space="preserve">
+    <value>Ars Magica</value>
+  </data>
+  <data name="Becmi" xml:space="preserve">
+    <value>BECMI</value>
+  </data>
+  <data name="Besm" xml:space="preserve">
+    <value>Big Eyes, Small Mouth</value>
+  </data>
+  <data name="Boothill" xml:space="preserve">
+    <value>Boot Hill</value>
+  </data>
+  <data name="Bushido" xml:space="preserve">
+    <value>Bushido</value>
+  </data>
+  <data name="Callofcthulu" xml:space="preserve">
+    <value>Call Of Cthulu</value>
+  </data>
+  <data name="Champions" xml:space="preserve">
+    <value>Champions</value>
+  </data>
+  <data name="CinematicQuestion" xml:space="preserve">
+    <value>Want one that is "cinematic" or has a bit of humor?</value>
+  </data>
+  <data name="CombatQuestion" xml:space="preserve">
+    <value>Focus on Combat?</value>
+  </data>
+  <data name="Conanmongoose" xml:space="preserve">
+    <value>Conan Mongoose</value>
+  </data>
+  <data name="Conantsr" xml:space="preserve">
+    <value>Conan TSR</value>
+  </data>
+  <data name="Cyberpunk2020" xml:space="preserve">
+    <value>CyberPunk 2020</value>
+  </data>
+  <data name="D20future" xml:space="preserve">
+    <value>D20 Future</value>
+  </data>
+  <data name="D20LikeQuestion" xml:space="preserve">
+    <value>Do you like D20? (Skills, feats, etc.)</value>
+  </data>
+  <data name="D20modern" xml:space="preserve">
+    <value>D20 Modern</value>
+  </data>
+  <data name="D20past" xml:space="preserve">
+    <value>D20 Past</value>
+  </data>
+  <data name="Dcadventures" xml:space="preserve">
+    <value>DC Adventures</value>
+  </data>
+  <data name="Dcheroes" xml:space="preserve">
+    <value>DC Heroes</value>
+  </data>
+  <data name="Dcuniverse" xml:space="preserve">
+    <value>DC Universe</value>
+  </data>
+  <data name="Dd0e" xml:space="preserve">
+    <value>D&amp;D 0E</value>
+  </data>
+  <data name="Dd1e" xml:space="preserve">
+    <value>D&amp;D 1E</value>
+  </data>
+  <data name="Dd4e" xml:space="preserve">
+    <value>D&amp;D 4E</value>
+  </data>
+  <data name="Deadlands" xml:space="preserve">
+    <value>Deadlands</value>
+  </data>
+  <data name="DerivativeQuestion" xml:space="preserve">
+    <value>D&amp;D/TSR derivative or not?</value>
+  </data>
+  <data name="Dresdenfiles" xml:space="preserve">
+    <value>Dresden Files</value>
+  </data>
+  <data name="Earthdawn" xml:space="preserve">
+    <value>EarthDawn</value>
+  </data>
+  <data name="Eclipsephase" xml:space="preserve">
+    <value>Eclipse Phase</value>
+  </data>
+  <data name="Exalted" xml:space="preserve">
+    <value>Exhalted</value>
+  </data>
+  <data name="Fadingsuns" xml:space="preserve">
+    <value>Fading Suns</value>
+  </data>
+  <data name="Fantasyhero" xml:space="preserve">
+    <value>Fantasy Hero</value>
+  </data>
+  <data name="FOrFQuestion" xml:space="preserve">
+    <value>Science fiction or Science fantasy?</value>
+  </data>
+  <data name="Fudge" xml:space="preserve">
+    <value>FUDGE</value>
+  </data>
+  <data name="FullLiteQuestion" xml:space="preserve">
+    <value>D20 based or D20 lite?</value>
+  </data>
+  <data name="FundamentalistQuestion" xml:space="preserve">
+    <value>Are you fundamentalist about it?</value>
+  </data>
+  <data name="Gammaworld" xml:space="preserve">
+    <value>Gamma World</value>
+  </data>
+  <data name="Gangbusters" xml:space="preserve">
+    <value>Gangbusters</value>
+  </data>
+  <data name="GenresMixedQuestion" xml:space="preserve">
+    <value>Want some other genres mixed with that?</value>
+  </data>
+  <data name="GothicQuestion" xml:space="preserve">
+    <value>Gothic, Space Opera or Post Apocalyptic?</value>
+  </data>
+  <data name="Gurps" xml:space="preserve">
+    <value>GURPS</value>
+  </data>
+  <data name="Gurpsfallout" xml:space="preserve">
+    <value>GURPS Fallout</value>
+  </data>
+  <data name="Gurpsmech" xml:space="preserve">
+    <value>GURPS Mecha</value>
+  </data>
+  <data name="Gurpssupers" xml:space="preserve">
+    <value>GURPS Supers</value>
+  </data>
+  <data name="GygaxQuestion" xml:space="preserve">
+    <value>What do you think of Gygax?</value>
+  </data>
+  <data name="Hackmaster" xml:space="preserve">
+    <value>Hackmaster</value>
+  </data>
+  <data name="Hackmasterb" xml:space="preserve">
+    <value>Hachmaster Basaic</value>
+  </data>
+  <data name="Harnmaster" xml:space="preserve">
+    <value>Harnmaster</value>
+  </data>
+  <data name="HaveCashQuestion" xml:space="preserve">
+    <value>Have wads of cash for minis?</value>
+  </data>
+  <data name="Hero" xml:space="preserve">
+    <value>HERO</value>
+  </data>
+  <data name="Hollowearthexpedition" xml:space="preserve">
+    <value>Hollow Earth Expedition</value>
+  </data>
+  <data name="HowTailoredQuestion" xml:space="preserve">
+    <value>Hiw tailored do you want your "universal" system?</value>
+  </data>
+  <data name="HSCQuestion" xml:space="preserve">
+    <value>Humor, Spies or Cyberpunk?</value>
+  </data>
+  <data name="HybridizeItQuestion" xml:space="preserve">
+    <value>Hybridize it moreso with D&amp;D?</value>
+  </data>
+  <data name="Icons" xml:space="preserve">
+    <value>ICONS</value>
+  </data>
+  <data name="Justdoaweb" xml:space="preserve">
+    <value>Just do a web search ;-)</value>
+  </data>
+  <data name="Loft5r" xml:space="preserve">
+    <value>Legend of the 5 Rings</value>
+  </data>
+  <data name="Marvelsuper" xml:space="preserve">
+    <value>Marvel Super-Heroes (FASERIP)</value>
+  </data>
+  <data name="Marveluniverse" xml:space="preserve">
+    <value>Marvel Universe</value>
+  </data>
+  <data name="MathQuestion" xml:space="preserve">
+    <value>What is du/dx = cu+xy?</value>
+  </data>
+  <data name="Mechwarrior" xml:space="preserve">
+    <value>Mechwarrior</value>
+  </data>
+  <data name="Metamorphosisalpha" xml:space="preserve">
+    <value>Metamorphosis Alpha</value>
+  </data>
+  <data name="MTVQuestion" xml:space="preserve">
+    <value>Based on a Movie or TV show?</value>
+  </data>
+  <data name="Mutantsandman" xml:space="preserve">
+    <value>Mutants and Masterminds</value>
+  </data>
+  <data name="MysthologyQuestion" xml:space="preserve">
+    <value>Mythology based?</value>
+  </data>
+  <data name="NicheGenreQuestion" xml:space="preserve">
+    <value>Have a niche genre in mind?</value>
+  </data>
+  <data name="OAHQuestion" xml:space="preserve">
+    <value>Pick a subgenre</value>
+  </data>
+  <data name="OldNewQuestion" xml:space="preserve">
+    <value>Old or new school?</value>
+  </data>
+  <data name="Opend6" xml:space="preserve">
+    <value>Open D6</value>
+  </data>
+  <data name="OpenGameFutureQuestion" xml:space="preserve">
+    <value>Do you want an "open" game</value>
+  </data>
+  <data name="OpenGameQuestion" xml:space="preserve">
+    <value>Want an "open" game?</value>
+  </data>
+  <data name="Oriental" xml:space="preserve">
+    <value>Oriental Adventures</value>
+  </data>
+  <data name="Paranoia" xml:space="preserve">
+    <value>Paranoia</value>
+  </data>
+  <data name="PointBuyQuestion" xml:space="preserve">
+    <value>Do you like point buy character gen?</value>
+  </data>
+  <data name="RacesAsClassesQuestion" xml:space="preserve">
+    <value>Do you like races as classes?</value>
+  </data>
+  <data name="RealComicsQuestion" xml:space="preserve">
+    <value>Based on real comics?</value>
+  </data>
+  <data name="ReallyQuestion" xml:space="preserve">
+    <value>Really?</value>
+  </data>
+  <data name="Rifts" xml:space="preserve">
+    <value>RIFTS</value>
+  </data>
+  <data name="Risus" xml:space="preserve">
+    <value>Risus</value>
+  </data>
+  <data name="Robotech" xml:space="preserve">
+    <value>Robotech</value>
+  </data>
+  <data name="Rolemaster" xml:space="preserve">
+    <value>Rolemaster</value>
+  </data>
+  <data name="Runequest" xml:space="preserve">
+    <value>RuneQuest</value>
+  </data>
+  <data name="Savageworlds" xml:space="preserve">
+    <value>Savage Worlds</value>
+  </data>
+  <data name="SemiHistoricalQuestion" xml:space="preserve">
+    <value>Semi-historical setting?</value>
+  </data>
+  <data name="Shadowrun" xml:space="preserve">
+    <value>Shadowrun</value>
+  </data>
+  <data name="SlewOrSkillsQuestion" xml:space="preserve">
+    <value>Still want a slew of skills</value>
+  </data>
+  <data name="SpiesQuestion" xml:space="preserve">
+    <value>Old or new school?</value>
+  </data>
+  <data name="Spiritofthecentury" xml:space="preserve">
+    <value>Spirit of the Century</value>
+  </data>
+  <data name="Spycraft" xml:space="preserve">
+    <value>Spycraft</value>
+  </data>
+  <data name="Starfrontiers" xml:space="preserve">
+    <value>Star Frontiers</value>
+  </data>
+  <data name="Starwarsd6" xml:space="preserve">
+    <value>Star Wars D6</value>
+  </data>
+  <data name="StarWarsQuestion" xml:space="preserve">
+    <value>Have lots of D6s and don't care about episodes 1-3</value>
+  </data>
+  <data name="Starwarssaga" xml:space="preserve">
+    <value>Star Wars SAGA</value>
+  </data>
+  <data name="SteamPunkQuestion" xml:space="preserve">
+    <value>Mix in some steampunk?</value>
+  </data>
+  <data name="SupernaturalPulpQuestion" xml:space="preserve">
+    <value>Supernatural or pulp?</value>
+  </data>
+  <data name="SystemQuestion" xml:space="preserve">
+    <value>Want a diceless system or one with lots of online fantasies?</value>
+  </data>
+  <data name="Topsecret" xml:space="preserve">
+    <value>Top Secret</value>
+  </data>
+  <data name="Torg" xml:space="preserve">
+    <value>TORG</value>
+  </data>
+  <data name="Traveller" xml:space="preserve">
+    <value>Traveller</value>
+  </data>
+  <data name="True20" xml:space="preserve">
+    <value>True20</value>
+  </data>
+  <data name="Tunnelstrolls" xml:space="preserve">
+    <value>Tunnels and Trolls</value>
+  </data>
+  <data name="UndeadQuestion" xml:space="preserve">
+    <value>Like Undead?</value>
+  </data>
+  <data name="UniversalSystemQuestion" xml:space="preserve">
+    <value>Still want a "universal" system?</value>
+  </data>
+  <data name="WantFinanceStoreQuestion" xml:space="preserve">
+    <value>Want to finance a store dedicated to 1 game?</value>
+  </data>
+  <data name="Warhammer" xml:space="preserve">
+    <value>Warhammer</value>
+  </data>
+  <data name="Warhammer40krpg" xml:space="preserve">
+    <value>Warhammer 40k RPG</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>It's time to choose a game to play isn't it? My magic software will handle the decision making for you. Just click the buttons, and watch the magic being done! Enjoy ;-)</value>
+  </data>
+  <data name="WhatBasedQuestion" xml:space="preserve">
+    <value>FATE based, D20 based or neither?</value>
+  </data>
+  <data name="WhatEQuestion" xml:space="preserve">
+    <value>Old school, D&amp;D 2E, 3E or 4E based?</value>
+  </data>
+  <data name="WhichDQuestion" xml:space="preserve">
+    <value>D6s, D10s or D20?</value>
+  </data>
+  <data name="WhichGenreQuestion" xml:space="preserve">
+    <value>Let's start which something simple. Which genre interests you?</value>
+  </data>
+  <data name="WhichSubGenreQuestion" xml:space="preserve">
+    <value>Which sub-genre?</value>
+  </data>
+  <data name="WithClassesQuestion" xml:space="preserve">
+    <value>With classes? Point Buy?</value>
+  </data>
+  <data name="WithMetaPlotsQuestion" xml:space="preserve">
+    <value>With meta-plots and a CCG element?</value>
+  </data>
+  <data name="Worldofdarkness" xml:space="preserve">
+    <value>World of Darkness</value>
+  </data>
+</root>
